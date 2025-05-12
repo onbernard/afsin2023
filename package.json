@@ -40,7 +40,6 @@
 		"@types/reveal.js": "^4.4.2",
 		"@vitejs/plugin-vue": "^4.2.3",
 		"d3": "^7.8.5",
-		"decktape": "^3.8.0",
 		"reveal.js": "^4.5.0",
 		"svelte-katex": "^0.1.2"
 	}

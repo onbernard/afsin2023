@@ -1,9 +1,13 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <section data-auto-animate>
     <h3 class="border-b-2 border-orange-300">
         <span>Sensitivité, spécificité</span>
     </h3>
     <div class="flex flex-col justify-start gap-3">
-        <div class="h-64"><img src="plots/histogram_sampled.png"></div>
+        <div class="h-64"><img src="{base}/plots/histogram_sampled.png"></div>
         <ul class="text-lg">
             <li>
                 <span data-id="101" class="text-orange-300 font-bold">Exactitude (Accuracy):</span>
@@ -38,7 +42,7 @@
         <span>Sensitivité, spécificité</span>
     </h3>
     <div class="flex flex-col justify-start gap-3">
-        <div class="h-64"><img src="plots/histogram_merged.png"></div>
+        <div class="h-64"><img src="{base}/plots/histogram_merged.png"></div>
         <ul class="text-lg">
             <li>
                 <span data-id="101" class="text-orange-300 font-bold">Exactitude (Accuracy):</span>
@@ -73,7 +77,7 @@
         <span>Sensitivité, spécificité</span>
     </h3>
     <div class="flex flex-col justify-start gap-3">
-        <div class="h-64"><img src="plots/stats_sampled.png"></div>
+        <div class="h-64"><img src="{base}/plots/stats_sampled.png"></div>
         <ul class="text-lg">
             <li>
                 <span data-id="101" class="text-orange-300 font-bold">Exactitude (Accuracy):</span>
@@ -108,7 +112,7 @@
         <span>Sensitivité, spécificité</span>
     </h3>
     <div class="flex flex-col justify-start gap-3">
-        <div class="h-64"><img src="plots/histogram_full.png"></div>
+        <div class="h-64"><img src="{base}/plots/histogram_full.png"></div>
         <ul class="text-lg">
             <li>
                 <span data-id="101" class="text-orange-300 font-bold">Exactitude (Accuracy):</span>

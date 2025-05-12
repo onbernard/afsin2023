@@ -1,3 +1,7 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <section>
     <h2 class="border-y-2 border-orange-300">En pratique</h2>
     <span class="text-3xl">Mesurons nous-même les performances de l'état de l'art</span>
@@ -14,39 +18,39 @@
         <div class="grid grid-cols-3 gap-2 basis-1/2">
             <div class="flex flex-col">
                 <small>Angelina Jolie</small>
-                <div class="img-ctnr"><img class="face-img" src="images/other_faces/Angelina_Jolie_0001.png"></div>
+                <div class="img-ctnr"><img class="face-img" src="{base}/images/other_faces/Angelina_Jolie_0001.png"></div>
             </div>
             <div class="flex flex-col">
                 <small>Angelina Jolie</small>
-                <div class="img-ctnr"><img class="face-img" src="images/other_faces/Angelina_Jolie_0002.png"></div>
+                <div class="img-ctnr"><img class="face-img" src="{base}/images/other_faces/Angelina_Jolie_0002.png"></div>
             </div>
             <div class="flex flex-col">
                 <small>Brad Pitt</small>
-                <div class="img-ctnr"><img class="face-img" src="images/other_faces/Brad_Pitt_0001.png"></div>
+                <div class="img-ctnr"><img class="face-img" src="{base}/images/other_faces/Brad_Pitt_0001.png"></div>
             </div>
             <div class="flex flex-col">
                 <small>George W Bush</small>
-                <div class="img-ctnr"><img class="face-img" src="images/other_faces/George_W_Bush_0001.png"></div>
+                <div class="img-ctnr"><img class="face-img" src="{base}/images/other_faces/George_W_Bush_0001.png"></div>
             </div>
             <div class="flex flex-col">
                 <small>George W Bush</small>
-                <div class="img-ctnr"><img class="face-img" src="images/other_faces/George_W_Bush_0002.png"></div>
+                <div class="img-ctnr"><img class="face-img" src="{base}/images/other_faces/George_W_Bush_0002.png"></div>
             </div>
             <div class="flex flex-col">
                 <small>Saddam Hussein</small>
-                <div class="img-ctnr"><img class="face-img" src="images/other_faces/Saddam_Hussein_0001.png"></div>
+                <div class="img-ctnr"><img class="face-img" src="{base}/images/other_faces/Saddam_Hussein_0001.png"></div>
             </div>
             <div class="flex flex-col">
                 <small>Saddam Hussein</small>
-                <div class="img-ctnr"><img class="face-img" src="images/other_faces/Saddam_Hussein_0002.png"></div>
+                <div class="img-ctnr"><img class="face-img" src="{base}/images/other_faces/Saddam_Hussein_0002.png"></div>
             </div>
             <div class="flex flex-col">
                 <small>Silvio Berlusconi</small>
-                <div class="img-ctnr"><img class="face-img" src="images/other_faces/Silvio_Berlusconi_0001.png"></div>
+                <div class="img-ctnr"><img class="face-img" src="{base}/images/other_faces/Silvio_Berlusconi_0001.png"></div>
             </div>
             <div class="flex flex-col">
                 <small>Zinedine Zidane</small>
-                <div class="img-ctnr"><img class="face-img" src="images/other_faces/Zinedine_Zidane_0001.png"></div>
+                <div class="img-ctnr"><img class="face-img" src="{base}/images/other_faces/Zinedine_Zidane_0001.png"></div>
             </div>
         </div>
         <div class="basis-1/2">
@@ -66,7 +70,7 @@
         <span>Modèles</span>
     </h3>
     <div class="flex justify-center items-center">
-        <img src="images/illustrations/comparaison_modeles.png">
+        <img src="{base}/images/illustrations/comparaison_modeles.png">
     </div>
 </section>
 
@@ -92,7 +96,7 @@
                 </ul>
             </ul>
         </ul>
-        <div><img src="images/stock/mind-blow-galaxy.gif"></div>
+        <div><img src="{base}/images/stock/mind-blow-galaxy.gif"></div>
     </div>
 </section>
 

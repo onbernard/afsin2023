@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { onMount } from 'svelte'
 
 	import Reveal from 'reveal.js';
@@ -54,7 +55,7 @@
 		<Partie10Histogram />
 		<Partie11Hack />
 	</div>
-	<div class="absolute left-0 bottom-0 w-52"><img class="lerti-logo" src="Lerti_logo_vect.svg"></div>
+	<div class="absolute left-0 bottom-0 w-52"><img class="lerti-logo" src="{base}/Lerti_logo_vect.svg"></div>
 </div>
 
 <style lang="postcss">

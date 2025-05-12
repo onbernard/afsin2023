@@ -1,6 +1,10 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <section>
     <div class="flex items-center justify-around">
-        <div class="img-ctnr-small m-12"><img class="img" src="images/stock/police_check.jpg" alt="police check"></div>
+        <div class="img-ctnr-small m-12"><img class="img" src="{base}/images/stock/police_check.jpg" alt="police check"></div>
         <ul class="text-xl">
             <li class="flex fill-red-500 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
@@ -11,7 +15,7 @@
                 Performance
             </li>
         </ul>
-        <div class="img-ctnr-small m-12"><img class="img" src="images/stock/id_check.webp" alt="id caisse"></div>
+        <div class="img-ctnr-small m-12"><img class="img" src="{base}/images/stock/id_check.webp" alt="id caisse"></div>
     </div>
     <div class="fragment">
         <h3 class="border-y-2 border-orange-300">
@@ -72,7 +76,7 @@
         Apprentissage automatique (en général)
     </h3>
     <div class="flex justify-center items-center">
-        <div class="w-1/2"><img src="plots/curve_fitting.gif"></div>
+        <div class="w-1/2"><img src="{base}/plots/curve_fitting.gif"></div>
         <div class="w-1/2 p-2">
             <h4 class="underline">Problème</h4>
             <ul class="text-xl">
@@ -99,7 +103,7 @@
         Apprentissage automatique (en général)
     </h3>
     <div class="flex justify-center items-center">
-        <div class="w-1/2"><img src="plots/curve_fitting.gif"></div>
+        <div class="w-1/2"><img src="{base}/plots/curve_fitting.gif"></div>
         <div class="w-1/2 p-2">
             <h4 class="underline">Conditions</h4>
             <ul class="text-xl">
@@ -131,7 +135,7 @@
     <h4 class="underline">En entrée</h4>
     <div class="fill-theme-header flex items-center justify-around">
         <div class="flex flex-col items-center">
-            <div class="img-ctnr-small"><img src="images/other_faces/brad_pitt2.jpg"></div>
+            <div class="img-ctnr-small"><img src="{base}/images/other_faces/brad_pitt2.jpg"></div>
             <span data-id="52" class="text-xl">
                 {String.raw`$$
                     \begin{bmatrix}
@@ -144,7 +148,7 @@
         </div>
         <svg data-id="51" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M406.6 374.6l96-96c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224l-293.5 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288l293.5 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
         <div class="flex flex-col items-center">
-            <div class="img-ctnr-small"><img src="images/other_faces/brad_pitt4.jpg"></div>
+            <div class="img-ctnr-small"><img src="{base}/images/other_faces/brad_pitt4.jpg"></div>
             <span data-id="53" class="text-xl">
                 {String.raw`$$
                     \begin{bmatrix}
@@ -177,7 +181,7 @@
     <h4 class="underline">En entrée</h4>
     <div class="fill-theme-header flex items-center justify-around">
         <div class="flex flex-col items-center">
-            <div class="img-ctnr-small"><img src="images/other_faces/brad_pitt2.jpg"></div>
+            <div class="img-ctnr-small"><img src="{base}/images/other_faces/brad_pitt2.jpg"></div>
             <span data-id="52" class="text-xl">
                 {String.raw`$$
                     \begin{bmatrix}
@@ -190,7 +194,7 @@
         </div>
         <svg data-id="51" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M406.6 374.6l96-96c12.5-12.5 12.5-32.8 0-45.3l-96-96c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224l-293.5 0 41.4-41.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-96 96c-12.5 12.5-12.5 32.8 0 45.3l96 96c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 288l293.5 0-41.4 41.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></svg>
         <div class="flex flex-col items-center">
-            <div class="img-ctnr-small"><img src="images/other_faces/brad_pitt4.jpg"></div>
+            <div class="img-ctnr-small"><img src="{base}/images/other_faces/brad_pitt4.jpg"></div>
             <span data-id="53" class="text-xl">
                 {String.raw`$$
                     \begin{bmatrix}

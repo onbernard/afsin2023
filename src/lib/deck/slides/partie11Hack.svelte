@@ -1,3 +1,7 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <section data-auto-animate>
     <h3 class="border-b-2 border-orange-300">
         <span>Malveillance 😈</span>
@@ -13,11 +17,11 @@
     </h3>
     <div>
         <div class="flex justify-around items-center">
-            <div class="h-36"><img src="images/other_faces/zemmour_old.png"></div>
-            <div class="h-36"><img src="images/other_faces/zemmour.jpg"></div>
-            <div class="h-36"><img src="images/other_faces/chalamet.jpg"></div>
+            <div class="h-36"><img src="{base}/images/other_faces/zemmour_old.png"></div>
+            <div class="h-36"><img src="{base}/images/other_faces/zemmour.jpg"></div>
+            <div class="h-36"><img src="{base}/images/other_faces/chalamet.jpg"></div>
         </div>
-        <div class="fragment m-auto w-1/3"><img src="plots/sim_zem_chal_0.png"></div>
+        <div class="fragment m-auto w-1/3"><img src="{base}/plots/sim_zem_chal_0.png"></div>
     </div>
 </section>
 
@@ -27,9 +31,9 @@
     </h3>
     <div>
         <div class="flex justify-around items-center">
-            <div class="h-36 m-12"><img src="images/other_faces/zemmour_old.png"></div>
-            <div class="h-36 m-12"><img src="images/other_faces/zemmour.jpg"></div>
-            <div class="h-36 m-12"><img src="images/other_faces/chalamet.jpg"></div>
+            <div class="h-36 m-12"><img src="{base}/images/other_faces/zemmour_old.png"></div>
+            <div class="h-36 m-12"><img src="{base}/images/other_faces/zemmour.jpg"></div>
+            <div class="h-36 m-12"><img src="{base}/images/other_faces/chalamet.jpg"></div>
         </div>
     </div>
     <ul class="text-xl">
@@ -44,11 +48,11 @@
     </h3>
     <div>
         <div class="flex justify-around items-center">
-            <div class="h-36"><img src="images/other_faces/zemmour_old.png"></div>
-            <div class="h-36"><img src="images/other_faces/zemmour.jpg"></div>
-            <div class="h-36"><img src="images/other_faces/chalamet.jpg"></div>
+            <div class="h-36"><img src="{base}/images/other_faces/zemmour_old.png"></div>
+            <div class="h-36"><img src="{base}/images/other_faces/zemmour.jpg"></div>
+            <div class="h-36"><img src="{base}/images/other_faces/chalamet.jpg"></div>
         </div>
-        <div class="h-64"><img src="plots/combined_looped.gif"></div>
+        <div class="h-64"><img src="{base}/plots/combined_looped.gif"></div>
     </div>
 </section>
 

@@ -1,3 +1,7 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <section>
     <h3 class="border-y-2 border-orange-300 pt-2">
         <span>Défis à surmonter</span>
@@ -6,8 +10,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden3.jpg" alt="3"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden3.jpg" alt="3"></div>
     </div>
     <aside class="notes">
         La distribution est impossible à caractériser. Il y a des cas facile.
@@ -16,8 +20,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden_shades.webp"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden_shades.webp"></div>
     </div>
     <aside class="notes">
         Alors que pour la même personne, et des photos de très bonne qualités. Elle peut porter des lunettes
@@ -26,8 +30,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden_young.webp"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden_young.webp"></div>
     </div>
     <aside class="notes">
         Il peut y avoir une grande différence de temps entre les deux prises de vues
@@ -36,8 +40,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden_less_young.webp"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden_less_young.webp"></div>
     </div>
     <aside class="notes">
         Suffisamment pour que la technologie ai évolué entre temps
@@ -46,8 +50,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden_even_less_young.webp"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden_even_less_young.webp"></div>
     </div>
     <aside class="notes">
         Son apparence peut être très différente, à peine reconnaissable pour un humain. (1/4)
@@ -56,8 +60,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden4.jpg" alt="4"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden4.jpg" alt="4"></div>
     </div>
     <aside class="notes">
         Son apparence peut être très différente, à peine reconnaissable pour un humain. (2/4)
@@ -65,8 +69,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden5.jpg" alt="5"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden5.jpg" alt="5"></div>
     </div>
     <aside class="notes">
         Son apparence peut être très différente, à peine reconnaissable pour un humain. (3/4)
@@ -74,8 +78,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden7.png" alt="7"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden7.png" alt="7"></div>
     </div>
     <aside class="notes">
         Son apparence peut être très différente, à peine reconnaissable pour un humain. (4/4)
@@ -83,8 +87,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden_montage.webp"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden_montage.webp"></div>
     </div>
     <aside class="notes">
         La photo peut avoir subi des modifications
@@ -94,8 +98,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden6.jpg" alt="6"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden6.jpg" alt="6"></div>
     </div>
     <aside class="notes">
         Carrément un montage.
@@ -103,8 +107,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden_fake.jpg"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden_fake.jpg"></div>
     </div>
     <aside class="notes">
         On peut avoir affaire à un fake.
@@ -113,8 +117,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden_mask.jpg"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden_mask.jpg"></div>
     </div>
     <aside class="notes">
         À un visage en partie couvert (1/2)
@@ -123,8 +127,8 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div data-id="41" class="img-ctnr"><img class="face-img" src="images/joes/joe_biden_hidden.webp"></div>
+        <div class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div data-id="41" class="img-ctnr"><img class="face-img" src="{base}/images/joes/joe_biden_hidden.webp"></div>
     </div>
     <aside class="notes">
         À un visage en partie couvert (2/2)
@@ -133,20 +137,20 @@
 
 <section data-auto-animate="">
     <div class="flex justify-around items-center flex-wrap">
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden1.jpg"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden_young.webp"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden_less_young.webp"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden_even_less_young.webp"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden_montage.webp"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden_fake.jpg"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden_mask.jpg"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden_hidden.webp"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden2.jpg" alt="2"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden3.jpg" alt="3"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden4.jpg" alt="4"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden5.jpg" alt="5"></div>
-        <div class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden6.jpg" alt="6"></div>
-        <div data-id="41" class="img-ctnr2"><img class="face-img" src="images/joes/joe_biden7.png" alt="6"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden1.jpg"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden_young.webp"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden_less_young.webp"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden_even_less_young.webp"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden_montage.webp"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden_fake.jpg"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden_mask.jpg"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden_hidden.webp"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden2.jpg" alt="2"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden3.jpg" alt="3"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden4.jpg" alt="4"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden5.jpg" alt="5"></div>
+        <div class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden6.jpg" alt="6"></div>
+        <div data-id="41" class="img-ctnr2"><img class="face-img" src="{base}/images/joes/joe_biden7.png" alt="6"></div>
     </div>
     <aside class="notes">
         De manière générale, même pour des photos de bonne qualité, elles peuvent différent fortement sans que pour autant un humain ne puisse plus la différence. On s'attends au minimum à ce que la reconnaissance faciale automatique puisse faire de même. À l'opposé, on souhaite qu'elle puisse reconnaître la même personne là où un humain ne pourrait pas le faire, c'est tout l'intérêt de l'évolution de la technologie.. 

@@ -1,10 +1,14 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <section data-background-image="images/stock/human_face.jpg">
     <div class="bg-opacity-60 bg-black backdrop-blur-md p-8 border-2 border-orange-300 text-theme-header font-bold">
         Reconnaissance faciale pour l'expertise numérique
         <hr class="border-white">
         Enjeux et défis
     </div>
-    <div class="h-32 bg-opacity-60 bg-black backdrop-blur-md"><img class="lerti-logo" src="Lerti_logo_vect.svg"></div>
+    <div class="h-32 bg-opacity-60 bg-black backdrop-blur-md"><img class="lerti-logo" src="{base}/Lerti_logo_vect.svg"></div>
     <aside class="notes">
     </aside>
 </section>

@@ -1,3 +1,7 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <section>
     <h3 class="border-b-2 border-orange-300 flex justify-center">
         Scores de similarités
@@ -26,10 +30,10 @@
     </h3>
     <div>
         <div>
-            <div class="w-full"><img src="plots/similarity_matrices.png" ></div>
+            <div class="w-full"><img src="{base}/plots/similarity_matrices.png" ></div>
         </div>
         <div class="flex justify-between items-center gap-2">
-            <div class="h-72"><img src="plots/zoom_arcface_sim.png" ></div>
+            <div class="h-72"><img src="{base}/plots/zoom_arcface_sim.png" ></div>
             <div class="flex flex-col gap-2">
                 <ul class="text-lg r-frame px-6">
                     <li><span class="text-theme-header font-bold">13233</span> photos de personnes</li>

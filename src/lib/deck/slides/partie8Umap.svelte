@@ -1,3 +1,7 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <section>
     <h3 class="border-b-2 border-orange-300">
         <span>UMAP</span>
@@ -16,7 +20,7 @@
     <h3 class="border-b-2 border-orange-300">
         <span>Vecteurs générés par les modèles</span>
     </h3>
-    <div><img src="plots/umap.png" ></div>
+    <div><img src="{base}/plots/umap.png" ></div>
     <ul class="text-xl">
         <li><span class="text-theme-header">13233</span> points représentants les <span class="text-theme-header">13233</span> photos de départ</li>
         <li>Deux points proches</li>
